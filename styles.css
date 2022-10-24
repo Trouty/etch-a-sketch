@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: #121212;
+    color: #BB86FC;
+}
+
+.header {
+    font-size: 100px;
+    padding: 16px 0px 16px;
+    background-color: #242424;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.canvas {
+    margin: 0 auto;
+    width: 750px;
+}
+
+
+.sketch-cell {
+    background-color: white;
+    transition: 0.1s;
+    border: 1px solid #303030;
+    box-sizing: border-box;
+}
+
+.sketch-cell:hover {
+    background-color: grey;
+}
+
+#sketch-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 750px;
+    height: 750px;
+}
+
+.controls {
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.selector-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    border: 2px solid #BB86FC;
+    transition: 0.2s;
+}
+
+.selector-button:hover {
+    cursor: pointer;
+}
+
+.selected-button {
+    border-radius: 100% !important;
+}
+
+#reset {
+    height: 40px;
+    width: 80px;
+    font-size: 24px;
+    border-radius: 8px;
+    border: 2px solid #BB86FC;
+}
+
+#random {
+    background-image: url('./images/rainbowGradient.jpg');
+    background-size: cover;
+}
+
+.red {
+    background-color: #F94144;
+}
+
+.orange {
+    background-color: #F3722C;
+}
+
+.light-orange {
+    background-color: #F8961E;
+}
+
+.yellow {
+    background-color: #F9C74F;
+}
+
+.green {
+    background-color: #90BE6D;
+}
+
+.turquoise {
+    background-color: #43AA8B;
+}
+
+.blue {
+    background-color: #577590;
+}
+
+.black {
+    background-color: #000000;
+}
+
+.white {
+    background-color: #FFFFFF;
+}
+
